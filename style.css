@@ -39,13 +39,12 @@ footer p {
 }
 
 article {
-    border: solid, grey, 1px;
+    border: solid grey 1px;
     background-color: white;
 }
 
 html {
-    max-width: width 1000px;
-    ;
+    max-width: 1000px;
     min-width: 700px;
 }
 
