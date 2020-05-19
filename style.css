@@ -9,19 +9,19 @@ h1 {
 }
 
 h2 {
-    background-color: thistle;
+    opacity: 0;
 }
-
 aside {
     float: right;
     font-family: 'Times New Roman', Times, serif;
     font-size: medium;
-    width: 40%;
+    
 }
 
 header {
     background-image: url(https://i.pinimg.com/originals/3a/fc/fc/3afcfcafb55d99e30d9a7ffab4ed96c7.jpg);
     height:500px ;
+    width: 100%;
 }
 
 .link {
@@ -31,6 +31,9 @@ header {
     float: left;
     width: 150px ;
     text-align: center;
+}
+.link:hover{
+    opacity: 0.5;
 }
 
 footer p {
@@ -44,15 +47,15 @@ article {
 }
 
 html {
-    max-width: 1000px;
-    min-width: 700px;
+   min-width: 700px;
+   max-width: 1000px;
 }
 
 nav {
     background-image: url();
     font-family:'Times New Roman', Times, serif;
-    float: left;
-    font-size: larger;    
+    font-size: larger;
+    width: 100%;    
 }
 
 section{
@@ -63,7 +66,12 @@ section{
 }
 
 nav p{
-    margin-right: 400px;
     margin-top: 100px;
     margin-bottom: 50px;
+    border: 3px, solid , grey ;
+}
+.subtitle{
+    width: 700px;   
+    margin-right: auto;
+    opacity: 1;
 }
