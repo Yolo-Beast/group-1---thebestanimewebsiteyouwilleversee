@@ -1,10 +1,15 @@
 html{
-    background-color: black;
+    /* background-color: black; */
 }
+
+form {
+    margin-bottom: 1em;
+}
+
 h1 {
     font-family: 'Times New Roman', Times, serif;
     font-size:30pt;
-    float: left;
+    /* float: left; */
     text-decoration: white;
 }
 
@@ -12,7 +17,7 @@ h2 {
     opacity: 0;
 }
 aside {
-    float: right;
+    /* float: right; */
     font-family: 'Times New Roman', Times, serif;
     font-size: medium;
     
@@ -28,7 +33,7 @@ header {
     border: 5px outset rgb(250, 188, 72);
     background-color: rgb(250, 188, 72);
     text-align: end;
-    float: left;
+    /* float: left; */
     width: 150px ;
     text-align: center;
 }
