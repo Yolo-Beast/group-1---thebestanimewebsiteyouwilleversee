@@ -1,77 +1,41 @@
-html{
-    /* background-color: black; */
-    min-width: 700px;
-    max-width: 1000px;
+/* Full page formatting */
+
+.mainpg-wrap {
+    width: 100%;
+    margin: 0 auto;
+    background: black;
+}
+
+.pgwrapper-backgrnd {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background: url(https://cdn.discordapp.com/attachments/677255897134792748/715887091891830844/Anime-Landscape-Backgrounds.png);
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 16px;
 }
 
 body {
-    font-family: 'Times New Roman', Times, serif;
+    overflow: hidden; /* Hide scrollbars */
 }
 
-form {
-    margin-bottom: 1em;
+/* Title Formatting */
+
+.animecentral-title {
+    height: 10em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: black;
+    opacity: 70%;
 }
 
-h1 {
-    /* font-family: sans-serif; */
-    font-size: 2.5em;
-    /* float: left; */
-    /* text-decoration: white; */
-}
-
-h2 {
-    /* opacity: 100%; */
-}
-
-aside {
-    /* float: right; */
-    /* font-family: 'Times New Roman', Times, serif; */
-    font-size: medium
-}
-
-header {
-    background-image: url(https://i.pinimg.com/originals/3a/fc/fc/3afcfcafb55d99e30d9a7ffab4ed96c7.jpg);
-    /* height:200px ; */
-    /* width: 100%; */
-    padding: 10px;
-}
-
-.link {
-    border: 5px outset rgb(250, 188, 72);
-    background-color: rgb(250, 188, 72);
-    /* text-align: end; */
-    /* float: left; */
-    /* width: 200px ; */
-    /* text-align: center; */
-    padding: 0.3em;
-}
-
-.link:hover{
-    opacity: 0.5;
-    /* color: red; */
-}
-
-.subtitle{
-    /* width: 700px; */
-    /* margin-right: auto; */
-    /* opacity: 1; */
-}
-
-article {
-    border: solid grey 1px;
-    background-color: white;
-}
-
-section{
-    border: solid gray 5px;
-    width: 60%;
-    background-color: white;
-    margin-bottom: 30px;
-}
-
-footer p {
-    text-align: center;
-    font-size: smaller;
+.animecentral-title h1 {
+    color: white;
+    margin: 0;
 }
 
 /* Button Formatting */
