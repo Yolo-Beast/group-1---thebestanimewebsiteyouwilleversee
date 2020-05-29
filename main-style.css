@@ -29,12 +29,14 @@ body::-webkit-scrollbar {
 /* Title Formatting */
 
 .animecentral-title {
-    height: 10em;
+    height: 3em;
     display: flex;
     align-items: center;
     justify-content: center;
     background: black;
     opacity: 80%;
+    font-family: "Arial Black";
+    font-size: 5em;
 }
 
 .animecentral-title h1 {
