@@ -143,3 +143,7 @@ body::-webkit-scrollbar {
 .nav-bar {
     overflow: hidden;
 }
+
+img{
+    height: 100%;
+}
