@@ -10,20 +10,39 @@
 </head>
 
 <body>
-    <form action='login.php' method='POST'>
-        Username: <input type='text' name='username' placeholder='Username' />
-        Password: <input type='password' name='password' placeholder='Password' />
-        <input type='submit' name='login' value='Log In' />
-    </form>
-
     <header>
         <h1>Anime Forum</h1>
-        <nav>
-            <a href="history.html" class="link"> History </a>
-            <a href="industry.html" class="link">Industry</a>
-            <a href="" class="link">List</a>
-            <a href="" class="link">Recent</a>
-        </nav>
+         <nav class="nav-bar">
+                <div class="nav-options">
+                    <form method="get" action="index.html">
+                        <button class="btn home-btn" type="submit">HOME</button>
+                    </form>
+
+                    <form method="get" action="">
+                        <button class="btn guide-btn" type="submit">Hot</button>
+                    </form>
+
+                    <form method="get" action="">
+                        <button class="btn help-btn" type="submit">Recent</button>
+                    </form>
+
+                    <form method="get" action="">
+                        <button class="btn report-btn" type="submit">Wiki</button>
+                    </form>
+
+                    <form method="get" action="">
+                        <button class="btn credits-btn" type="submit">Help</button>
+                    </form>
+
+                    <form method="get" action="">
+                        <button class="btn about-btn" type="submit">ABOUT</button>
+                    </form>
+
+                    <form method="get" action="">
+                        <button class="btn extras-btn" type="submit">EXTRAS</button>
+                    </form>
+                </div>
+            </nav>
         <h2 class="subtitle">Welcome</h2>
     </header>
     <h2 class="subtitle">Recent issues</h2>
