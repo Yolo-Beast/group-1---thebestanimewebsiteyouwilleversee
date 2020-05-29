@@ -11,7 +11,7 @@
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    background: url(https://cdn.discordapp.com/attachments/677255897134792748/715887091891830844/Anime-Landscape-Backgrounds.png);
+    background: url(https://cdn.discordapp.com/attachments/677255897134792748/715939141812224040/unknown.png);
     background-position: top center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -34,7 +34,7 @@ body::-webkit-scrollbar {
     align-items: center;
     justify-content: center;
     background: black;
-    opacity: 70%;
+    opacity: 80%;
 }
 
 .animecentral-title h1 {
@@ -42,10 +42,36 @@ body::-webkit-scrollbar {
     margin: 0;
 }
 
+/* Navigation Bar Formatting */
+
+.nav-bar-div {
+    height: 5em;
+    background: black;
+    opacity: 80%;
+}
+
+.nav-bar {
+    overflow: hidden;
+}
+
+.nav-options {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 /* General Text Formatting */
 
 .placeholder-txt {
     color: white;
+}
+
+.placeholder-txt-div {
+    padding: 16px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background: black;
+    opacity: 70%;
 }
 
 /* Button Formatting */
@@ -138,12 +164,4 @@ body::-webkit-scrollbar {
 .extras-btn:hover {
     background-color: violet;
     color: white;
-}
-
-.nav-bar {
-    overflow: hidden;
-}
-
-img{
-    height: 100%;
 }
