@@ -42,6 +42,12 @@ body::-webkit-scrollbar {
     margin: 0;
 }
 
+/* General Text Formatting */
+
+.placeholder-txt {
+    color: white;
+}
+
 /* Button Formatting */
 
 .btn {
