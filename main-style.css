@@ -3,6 +3,7 @@
 .mainpg-wrap {
     width: 100%;
     margin: 0 auto;
+    background-color: black;
 }
 
 .pgwrapper-backgrnd {
@@ -14,7 +15,10 @@
     background-size: cover;
     background-repeat: no-repeat;
     margin: 16px;
+    background-color: black;
+    background-image: url(https://cdn.discordapp.com/attachments/677255897134792748/715939141812224040/unknown.png);
 }
+} 
 
 body {
     -ms-overflow-style: none; /* Hide scrollbars for IE and Edge*/
@@ -266,3 +270,11 @@ html {
     max-width: 200px;
     padding:10px
 }
+
+
+
+
+
+
+
+
