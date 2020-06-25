@@ -226,3 +226,27 @@ html {
     background: black;
     opacity: 70%;
 }
+
+/* Footer formatting*/
+.footer-div{
+    opacity: 70%;
+    width: auto;
+    height: 500px;
+}
+.footer-txt-div{
+    padding: 16px;
+    margin-top: 50px;
+
+}
+.footer-txt{
+    color: white;
+    padding-left: 10px;
+}
+
+
+
+
+
+
+
+
