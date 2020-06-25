@@ -239,12 +239,30 @@ html {
     padding-left: 10px;
     display:inline-block;
     font-size: small;
+    margin-left: 30%;
 }
 
-}
+
 .footer-txt{
     list-style-type: none;
     text-align: center;
     margin: 0;
     padding: 0;
+    background-color:black;
+    color: white;
+    float: right;
+    max-width: 200px;
+    padding:10px;
+}
+
+.footer-txt1{
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color:black;
+    color: white;
+    float: left;
+    max-width: 200px;
+    padding:10px
 }
