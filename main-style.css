@@ -3,7 +3,6 @@
 .mainpg-wrap {
     width: 100%;
     margin: 0 auto;
-    background: black;
 }
 
 .pgwrapper-backgrnd {
@@ -232,21 +231,20 @@ html {
     opacity: 70%;
     width: auto;
     height: 500px;
+    background-color: black;
+    color: white;
 }
 .footer-txt-div{
     padding: 16px;
-    margin-top: 50px;
+    padding-left: 10px;
+    display:inline-block;
+    font-size: small;
+}
 
 }
 .footer-txt{
-    color: white;
-    padding-left: 10px;
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
 }
-
-
-
-
-
-
-
-
