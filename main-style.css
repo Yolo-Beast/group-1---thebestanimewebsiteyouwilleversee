@@ -186,16 +186,6 @@ html {
     color: white;
 }
 
-.wiki-btn {
-    background-color: white; 
-    color: black; 
-    border: 2px solid green;
-}
-
-.wiki-btn:hover {
-    background-color: green;
-    color: white;
-}
 
 .help-btn {
     background-color: white; 
@@ -205,17 +195,6 @@ html {
 
 .help-btn:hover {
     background-color: blue;
-    color: white;
-}
-
-.about-btn {
-    background-color: white; 
-    color: black; 
-    border: 2px solid indigo;
-}
-
-.about-btn:hover {
-    background-color: indigo;
     color: white;
 }
 
