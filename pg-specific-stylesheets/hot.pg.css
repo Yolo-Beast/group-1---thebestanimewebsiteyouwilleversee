@@ -16,3 +16,9 @@
     background: black;
     opacity: 70%;
 }
+
+#hot-anime-list-div {
+    padding: 10px;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
